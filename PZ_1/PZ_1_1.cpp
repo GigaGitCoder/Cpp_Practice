@@ -1,10 +1,11 @@
 #include <iostream>
-#include <common.h>
+#include "../common.h"
 
 using namespace std;
 
 int main()
 {
+    setupLocale();
     setlocale(LC_ALL, "Russian");
 
     cout << "Здравствуй, мир!";
