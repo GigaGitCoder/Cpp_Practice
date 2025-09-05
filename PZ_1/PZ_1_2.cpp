@@ -1,18 +1,16 @@
 #include <iostream>
-// #include <windows.h>
+#include <common.h>
 
 using namespace std;
 
 int main()
 {
-    // SetConsoleCP(1251);
-    // SetConsoleOutputCP(1251);
     setlocale(LC_ALL, "Russian");
 
     string name;
-    cout << "Ââåäèòå âàøå èìÿ: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ð°ÑˆÐµ Ð¸Ð¼Ñ: ";
     cin >> name;
 
-    cout << "Äîáðûé äåíü, " << name;
+    cout << "Ð”Ð¾Ð±Ñ€Ñ‹Ð¹ Ð´ÐµÐ½ÑŒ, " << name;
     return 0;
 }
